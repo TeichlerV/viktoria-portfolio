@@ -2,18 +2,37 @@ body {
   background-image: url(visuals/anslagstavla.jpg);
 }
 h1 {
-  text-align: center;
   font-size: 48px;
+  background-color: #d7f9cd;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .post-it-my-projects {
   width: 350px;
 }
+.div-projects {
+  text-align: end;
+}
 .post-it-contact {
-  width: 300px;
+  width: 280px;
+}
+.div-contact {
+  text-align: start;
 }
 .post-it-education {
   width: 300px;
 }
+.div-education {
+  text-align: center;
+}
 .post-it-about-me {
   width: 350px;
+}
+.div-about-me {
+  text-align: center;
 }
