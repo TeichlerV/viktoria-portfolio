@@ -1,5 +1,12 @@
+:root {
+  --box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
 body {
   background-image: url(visuals/anslagstavla.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   font-family: "Caveat", cursive;
 }
 h1 {
@@ -15,6 +22,14 @@ h1 {
   font-weight: 500;
   font-family: "Shadows Into Light", cursive;
   letter-spacing: 5px;
+}
+h2 {
+  background-color: #efe2a2;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 .post-it-my-projects {
   width: 350px;
@@ -39,4 +54,43 @@ h1 {
 }
 .div-about-me {
   text-align: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.nav-link-1,
+.nav-link-2,
+.nav-link-3,
+.nav-link-4 {
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  padding: 5px 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+}
+.nav-link-1 {
+  background-color: #cc7ac0;
+  border: solid 2px #8d5585;
+}
+.nav-link-2 {
+  background-color: #fced5e;
+  border: solid 2px #baaf47;
+}
+.nav-link-3 {
+  background-color: #5efdca;
+  border: solid 2px #41b590;
+}
+.nav-link-4 {
+  background-color: #5a9ff1;
+  border: solid 2px #3c669a;
+}
+@media (max-width: 400px) {
+  .menu {
+    flex-direction: column;
+  }
 }
