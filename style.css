@@ -1,0 +1,19 @@
+body {
+  background-image: url(visuals/anslagstavla.jpg);
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.post-it-my-projects {
+  width: 350px;
+}
+.post-it-contact {
+  width: 300px;
+}
+.post-it-education {
+  width: 300px;
+}
+.post-it-about-me {
+  width: 350px;
+}
