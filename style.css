@@ -1,8 +1,9 @@
 body {
   background-image: url(visuals/anslagstavla.jpg);
+  font-family: "Caveat", cursive;
 }
 h1 {
-  font-size: 48px;
+  font-size: 58px;
   background-color: #d7f9cd;
   width: 500px;
   padding: 10px;
@@ -11,6 +12,9 @@ h1 {
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 50px;
+  font-weight: 500;
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 5px;
 }
 .post-it-my-projects {
   width: 350px;
