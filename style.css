@@ -103,6 +103,11 @@ h2 {
   font-family: "Comic Neue", cursive;
   margin-bottom: 20px;
 }
+iframe {
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
 @media (max-width: 400px) {
   .menu {
     flex-direction: column;
