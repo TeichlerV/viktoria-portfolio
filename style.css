@@ -113,3 +113,9 @@ iframe {
     flex-direction: column;
   }
 }
+@media (max-width: 500px) {
+  h1 {
+    width: 300px;
+    font-size: 45px;
+  }
+}
