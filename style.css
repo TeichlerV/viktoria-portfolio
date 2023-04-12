@@ -118,4 +118,16 @@ iframe {
     width: 300px;
     font-size: 45px;
   }
+  .post-it-my-projects {
+    width: 250px;
+  }
+  .post-it-contact {
+    width: 180px;
+  }
+  .post-it-education {
+    width: 230px;
+  }
+  .post-it-about-me {
+    width: 250px;
+  }
 }
