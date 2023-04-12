@@ -23,7 +23,7 @@ h1 {
   font-family: "Shadows Into Light", cursive;
   letter-spacing: 5px;
 }
-h2 {
+h3 {
   background-color: #efe2a2;
   width: 300px;
   padding: 10px;
@@ -31,6 +31,13 @@ h2 {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+h2 {
+  text-align: center;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding: 35px;
 }
 .post-it-my-projects {
   width: 350px;
@@ -109,10 +116,12 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+
 /*About Me*/
 .h2-about-me {
   background-color: #f7d7e1;
 }
+
 .berlin,
 .handcraft-cake,
 .hiking {
@@ -126,6 +135,29 @@ iframe {
   background-color: #f9eaaf;
   margin: 30px;
 }
+/* Contact*/
+.h2-contact {
+  background-color: #c8e3f7;
+  margin-bottom: 60px;
+}
+.needle {
+  width: 40px;
+}
+.contact {
+  text-align: center;
+  margin-top: 30px;
+}
+.contact-info {
+  font-size: 25px;
+  background-color: #f7d7e1;
+  padding: 5px 40px;
+  margin-left: 30px;
+}
+.contact-info a {
+  text-decoration: none;
+  color: #000000;
+}
+
 @media (max-width: 400px) {
   .menu {
     flex-direction: column;
