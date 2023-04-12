@@ -56,6 +56,7 @@ h2 {
 .div-about-me {
   text-align: center;
 }
+/*Projects*/
 .menu {
   display: flex;
   justify-content: center;
@@ -107,6 +108,23 @@ iframe {
   height: 250px;
   display: block;
   margin: 0 auto;
+}
+/*About Me*/
+.h2-about-me {
+  background-color: #f7d7e1;
+}
+.berlin,
+.handcraft-cake,
+.hiking {
+  width: 330px;
+}
+.about-me-text {
+  font-size: 25px;
+  margin-top: 70px;
+}
+.container-about {
+  background-color: #f9eaaf;
+  margin: 30px;
 }
 @media (max-width: 400px) {
   .menu {
