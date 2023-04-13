@@ -163,6 +163,10 @@ iframe {
   color: #000000;
 }
 /*Education*/
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
 .h2-education {
   background-color: #bdf9e5;
 }
@@ -178,6 +182,7 @@ iframe {
 .education-text {
   background-color: #fce6c5;
   padding: 30px;
+  margin-bottom: 50px;
 }
 .education-info {
   font-size: 20px;
@@ -196,6 +201,9 @@ iframe {
 .final-project a {
   text-decoration: none;
   color: #000000;
+}
+.education-city {
+  font-size: 20px;
 }
 
 @media (max-width: 400px) {
