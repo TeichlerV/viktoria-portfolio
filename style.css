@@ -63,6 +63,11 @@ h2 {
 .div-about-me {
   text-align: center;
 }
+.post-it-pink {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
 /*Projects*/
 .menu {
   display: flex;
@@ -188,5 +193,14 @@ iframe {
   }
   .post-it-about-me {
     width: 250px;
+  }
+  .post-it-pink {
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .post-it-pink {
+    position: relative;
+    left: 130px;
   }
 }
