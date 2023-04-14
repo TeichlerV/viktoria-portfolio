@@ -42,14 +42,6 @@ h2 {
 .post-it-my-projects {
   width: 350px;
 }
-.post-it-link img:hover {
-  transform: scale(-1);
-  pointer-events: none;
-}
-.post-it-link-contact img:hover {
-  transform: scale(1.5);
-  pointer-events: none;
-}
 .div-projects {
   text-align: end;
 }
@@ -76,11 +68,17 @@ h2 {
   display: block;
   margin: 0 auto;
 }
-/*Projects*/
+.post-it-link img:hover {
+  transform: scale(-1);
+}
+
 .menu {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
+.menu a:hover {
+  color: #000000;
 }
 
 .nav-link-1,
@@ -95,22 +93,44 @@ h2 {
   color: #000000;
   font-size: 18px;
 }
+
 .nav-link-1 {
   background-color: #cc7ac0;
   border: solid 2px #8d5585;
+}
+.nav-link-1:hover {
+  background-color: #dd97d3;
+  border: solid 2px #8d5585;
+  transition: all 200ms linear/ease-in-out;
 }
 .nav-link-2 {
   background-color: #fced5e;
   border: solid 2px #baaf47;
 }
+.nav-link-2:hover {
+  background-color: #fcf39c;
+  border: solid 2px #baaf47;
+  transition: all 200ms linear/ease-in-out;
+}
 .nav-link-3 {
   background-color: #5efdca;
   border: solid 2px #41b590;
+}
+.nav-link-3:hover {
+  background-color: #9afcdd;
+  border: solid 2px #41b590;
+  transition: all 200ms linear/ease-in-out;
 }
 .nav-link-4 {
   background-color: #5a9ff1;
   border: solid 2px #3c669a;
 }
+.nav-link-4:hover {
+  background-color: #7db1f1;
+  border: solid 2px #3c669a;
+  transition: all 200ms linear/ease-in-out;
+}
+/*Projects*/
 .project-img {
   width: 260px;
 }
@@ -170,6 +190,11 @@ iframe {
   text-decoration: none;
   color: #000000;
 }
+.contact-info:hover {
+  background-color: #fab5cb;
+  border: solid 1px #f7d7e1;
+  transition: all 200ms linear/ease-in-out;
+}
 /*Education*/
 h4 {
   font-size: 30px;
@@ -208,6 +233,12 @@ h4 {
 .final-project a {
   text-decoration: none;
   color: #000000;
+}
+.final-project:hover {
+  font-size: 20px;
+  background-color: #8afdd7;
+  border: solid 1px #bdf9e5;
+  transition: all 200ms linear/ease-in-out;
 }
 .education-city {
   font-size: 20px;
