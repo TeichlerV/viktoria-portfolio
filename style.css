@@ -46,6 +46,10 @@ h2 {
   transform: scale(-1);
   pointer-events: none;
 }
+.post-it-link-contact img:hover {
+  transform: scale(1.5);
+  pointer-events: none;
+}
 .div-projects {
   text-align: end;
 }
