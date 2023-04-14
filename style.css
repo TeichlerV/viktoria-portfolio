@@ -42,6 +42,10 @@ h2 {
 .post-it-my-projects {
   width: 350px;
 }
+.post-it-link img:hover {
+  transform: scale(-1);
+  pointer-events: none;
+}
 .div-projects {
   text-align: end;
 }
