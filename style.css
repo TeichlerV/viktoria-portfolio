@@ -170,8 +170,7 @@ h4 {
 .h2-education {
   background-color: #bdf9e5;
 }
-.h3-education {
-}
+
 .needle2 {
   width: 40px;
 }
@@ -245,5 +244,13 @@ h4 {
   .post-it-pink {
     position: relative;
     left: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .needle2 {
+    visibility: hidden;
+  }
+  h3 {
+    width: 200px;
   }
 }
