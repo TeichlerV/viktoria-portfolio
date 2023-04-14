@@ -63,7 +63,7 @@ h2 {
 .div-about-me {
   text-align: center;
 }
-.post-it-pink {
+.post-it-quote {
   width: 300px;
   display: block;
   margin: 0 auto;
@@ -236,12 +236,12 @@ h4 {
   .post-it-about-me {
     width: 250px;
   }
-  .post-it-pink {
+  .post-it-quote {
     width: 200px;
   }
 }
 @media (max-width: 600px) {
-  .post-it-pink {
+  .post-it-quote {
     position: relative;
     left: 100px;
   }
