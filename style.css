@@ -223,6 +223,10 @@ h4 {
 .education-name {
   font-size: 25px;
 }
+.program {
+  font-size: 20px;
+  font-family: "Comic Neue", cursive;
+}
 .final-project {
   font-size: 20px;
   background-color: #bdf9e5;
