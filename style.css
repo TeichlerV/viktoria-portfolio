@@ -248,7 +248,23 @@ h4 {
 .education-city {
   font-size: 20px;
 }
-
+button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #bdf9e5;
+  border: solid 2px #86f7d1;
+  padding: 8px 30px;
+  box-shadow: var(--box-shadow);
+  border-radius: 6px;
+}
+button:hover {
+  background-color: #8afdd7;
+}
+a button {
+  color: #000000;
+  font-size: 20px;
+}
 @media (max-width: 400px) {
   .menu {
     flex-direction: column;
