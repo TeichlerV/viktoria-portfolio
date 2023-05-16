@@ -131,30 +131,60 @@ h2 {
   transition: all 200ms linear/ease-in-out;
 }
 /*Projects*/
-.project-img {
-  width: 260px;
+.project-container {
+  margin: 0px 60px;
+  background-color: #ffffff;
 }
-
-.project {
-  text-align: center;
+.projects {
+  padding: 30px;
 }
-.card {
-  display: block;
-  margin: 0 auto;
-  font-family: "Comic Neue", cursive;
-  margin-bottom: 20px;
-}
-iframe {
-  height: 250px;
+.pic1-kritan,
+.pic2-madde {
+  width: 500px;
   display: block;
   margin: 0 auto;
 }
-
+hr {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+.credit-card {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.user-profile {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}
+.sign-up-form {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}
+.landing-page,
+.error-page,
+.setting-page {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+}
+.weather-page {
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+}
 /*About Me*/
 .h2-about-me {
   background-color: #f7d7e1;
 }
-
+.about-needle {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+}
 .berlin,
 .handcraft-cake,
 .hiking {
@@ -165,7 +195,7 @@ iframe {
   margin-top: 70px;
 }
 .container-about {
-  background-color: #f9eaaf;
+  background-color: #ffffff;
   margin: 30px;
 }
 /* Contact*/
@@ -179,10 +209,12 @@ iframe {
 .contact {
   text-align: center;
   margin-top: 30px;
+  background-color: #d7f9cd;
+  width: 600px;
 }
 .contact-info {
   font-size: 25px;
-  background-color: #f7d7e1;
+
   padding: 5px 40px;
   margin-left: 30px;
 }
