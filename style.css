@@ -33,21 +33,17 @@ body {
 .intro-2 {
   font-size: 20px;
 }
-h3 {
-  background-color: #efe2a2;
-  width: 300px;
-  padding: 10px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
+
 h2 {
   text-align: center;
   width: 400px;
   display: block;
   margin: 0 auto;
   padding: 35px;
+}
+.h2-projects {
+  background-color: #efe2a2;
+  margin-bottom: 30px;
 }
 .post-it-my-projects {
   width: 350px;
@@ -215,28 +211,30 @@ hr {
 }
 .needle {
   width: 40px;
+  margin-left: 30px;
 }
 .contact {
-  text-align: center;
+  display: block;
+  margin: 0 auto;
   margin-top: 30px;
   background-color: #d7f9cd;
   width: 600px;
 }
 .contact-info {
   font-size: 25px;
-
-  padding: 5px 40px;
+  padding: 5px 30px 20px 30px;
   margin-left: 30px;
 }
 .contact-info a {
   text-decoration: none;
   color: #000000;
 }
-.contact-info:hover {
-  background-color: #fab5cb;
-  border: solid 1px #f7d7e1;
+
+.contact-info a:hover {
+  color: #41b590;
   transition: all 200ms linear/ease-in-out;
 }
+
 /*Education
 h4 {
   font-size: 30px;
