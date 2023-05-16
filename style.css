@@ -267,7 +267,7 @@ hr {
   .post-it-contact {
     width: 180px;
   }
-  .post-it-education {
+  .post-it-todo {
     width: 230px;
   }
   .post-it-about-me {
@@ -282,8 +282,10 @@ hr {
     position: relative;
     left: 100px;
   }
+  .intro-text {
+    width: 500px;
+  }
 }
-
 @media only screen and (min-width: 450px) and (max-width: 651px) {
   .contact {
     width: 400px;
@@ -297,7 +299,8 @@ hr {
     width: 300px;
   }
   .contact-info {
-    margin-left: 5px;
+    margin-left: 0px;
+    padding: 5px 15px;
   }
   .needle {
     width: 20px;
@@ -348,9 +351,17 @@ hr {
   hr {
     width: 200px;
   }
+  .intro-text {
+    width: 300px;
+    font-size: 20px;
+  }
 }
-@media only screen and (min-width: 200px) and (max-width: 340px) {
+@media only screen and (min-width: 150px) and (max-width: 340px) {
   hr {
     width: 100px;
+  }
+  .intro-text {
+    width: 200px;
+    font-size: 15px;
   }
 }
