@@ -146,7 +146,7 @@ h2 {
 }
 .pic1-kritan,
 .pic2-madde {
-  width: 500px;
+  width: 600px;
   display: block;
   margin: 0 auto;
 }
@@ -235,76 +235,6 @@ hr {
   transition: all 200ms linear/ease-in-out;
 }
 
-/*Education
-h4 {
-  font-size: 30px;
-  text-align: center;
-}
-.h2-education {
-  background-color: #bdf9e5;
-}
-
-.needle2 {
-  width: 40px;
-}
-.coding-courses {
-  display: flex;
-  justify-content: center;
-}
-.education-text {
-  background-color: #fce6c5;
-  padding: 30px;
-  margin-bottom: 50px;
-}
-.education-info {
-  font-size: 20px;
-  font-family: "Comic Neue", cursive;
-}
-.education-name {
-  font-size: 25px;
-}
-.program {
-  font-size: 20px;
-  font-family: "Comic Neue", cursive;
-}
-.final-project {
-  font-size: 20px;
-  background-color: #bdf9e5;
-  padding: 5px;
-  text-align: center;
-  width: 100px;
-  margin: 5px;
-}
-.final-project a {
-  text-decoration: none;
-  color: #000000;
-}
-.final-project:hover {
-  font-size: 20px;
-  background-color: #8afdd7;
-  border: solid 1px #bdf9e5;
-  transition: all 200ms linear/ease-in-out;
-}
-.education-city {
-  font-size: 20px;
-}
-button {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  background-color: #bdf9e5;
-  border: solid 2px #86f7d1;
-  padding: 8px 30px;
-  box-shadow: var(--box-shadow);
-  border-radius: 6px;
-}
-button:hover {
-  background-color: #8afdd7;
-}
-a button {
-  color: #000000;
-  font-size: 20px;
-} */
 @media (max-width: 400px) {
   .menu {
     flex-direction: column;
@@ -352,6 +282,7 @@ a button {
     left: 100px;
   }
 }
+
 @media (max-width: 750px) {
   h3 {
     margin-bottom: 5px;
@@ -369,5 +300,25 @@ a button {
   }
   h3 {
     width: 200px;
+  }
+}
+@media (max-width: 950px) {
+  hr {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 750px) {
+  hr {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 499px) {
+  hr {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 340px) {
+  hr {
+    width: 100px;
   }
 }
