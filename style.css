@@ -160,11 +160,7 @@ hr {
   display: block;
   margin: 0 auto;
 }
-.credit-card {
-  width: 200px;
-  display: block;
-  margin: 0 auto;
-}
+
 .user-profile {
   width: 180px;
   display: block;
@@ -172,6 +168,11 @@ hr {
 }
 .sign-up-form {
   width: 180px;
+  display: block;
+  margin: 0 auto;
+}
+.music-player {
+  width: 200px;
   display: block;
   margin: 0 auto;
 }
