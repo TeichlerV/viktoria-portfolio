@@ -191,6 +191,39 @@ hr {
   width: 350px;
 }
 
+button {
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  padding: 5px 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.kritan-button {
+  background-color: #33495c;
+}
+.kritan-button:hover {
+  scale: 1.1;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: all 200ms linear/ease-in-out;
+}
+.madde-button {
+  background-color: #9b3175;
+}
+.madde-button:hover {
+  scale: 1.1;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: all 200ms linear/ease-in-out;
+}
+.weather-button {
+  background-color: #be797e;
+}
+.weather-button:hover {
+  scale: 1.1;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: all 200ms linear/ease-in-out;
+}
 /*About Me*/
 .h2-about-me {
   background-color: #f7d7e1;
