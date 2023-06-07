@@ -157,7 +157,7 @@ h3 {
 }
 .pic1-kritan,
 .pic2-madde,
-.weather-page {
+.yoga-page {
   width: 600px;
   display: block;
   margin: 0 auto;
@@ -168,13 +168,13 @@ hr {
   margin: 0 auto;
 }
 
-.user-profile {
-  width: 180px;
+.timer {
+  width: 200px;
   display: block;
   margin: 0 auto;
 }
 .sign-up-form {
-  width: 180px;
+  width: 200px;
   display: block;
   margin: 0 auto;
 }
@@ -183,12 +183,12 @@ hr {
   display: block;
   margin: 0 auto;
 }
+.flash-message,
 .landing-page,
-.error-page,
-.setting-page {
+.pop-up {
   display: block;
   margin: 0 auto;
-  width: 350px;
+  width: 500px;
 }
 
 button {
