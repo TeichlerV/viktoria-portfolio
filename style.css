@@ -424,4 +424,7 @@ button {
   .project-2 {
     display: none;
   }
+  .project-container {
+    margin: 0px 20px;
+  }
 }
